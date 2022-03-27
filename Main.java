@@ -32,7 +32,7 @@ public class Main {
 	public static void kadai2() {
 		/* 課題２　if文で変数sumに１を１０回足した後、出力しています*/
 		int sum=0;
-		for (int i = 0; i < 10; i++) {
+		for (int i = ; i < 10; i++) {
 			sum = +i;
 			}
 		System.out.println(sum);

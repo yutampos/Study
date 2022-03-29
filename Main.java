@@ -35,7 +35,7 @@ public class Main {
 		int sum=0;
 		for (int i = ; i < 10; i++) {
 			sum = +i;
-			}
+		}
 		System.out.println(sum);
 	}
 

@@ -60,13 +60,13 @@ public class Main {
 
 	public static void kadai4() {
 		/*  課題４　trueOrFalseメソッドに乱数0or1を渡し、if文の条件に沿って真か偽を返しています*/
-		TrueOrFalse TOF = new TrueOrFalse();
+		TrueOrFalse trueAndFalse = new TrueOrFalse();
 
 		Random random = new Random();
 
 		int num = random.nextInt(1);
 
-		String result = TOF.trueOrFalse(num);
+		String result = trueAndFalse.trueOrFalse(num);
 
 		System.out.println(result);
 	}

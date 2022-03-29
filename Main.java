@@ -41,10 +41,10 @@ public class Main {
 
 	public static void kadai3() {
 		/* 課題３　plusDateとDayOfWeekを使い3年後の曜日を出力しています*/
-		LocalDateTime LDT = LocalDateTime.now();
-		LocalDateTime plusDate = LDT.plusYears(3);
-		DayOfWeek dw = plusDate.getDayOfWeek();
-		System.out.println(dw);
+		LocalDateTime now = LocalDateTime.now();
+		LocalDateTime plusDate = now.plusYears(3);
+		DayOfWeek dayWeek = plusDate.getDayOfWeek();
+		System.out.println(dayWeek);
 	}
 
 	public static void kadai4() {

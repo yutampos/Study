@@ -1,14 +1,14 @@
 package test;
 
 public class TrueOrFalse {
-	public String trueOrFalse(int Num) {
-		String TF;
-		if(Num==1) {
-			TF="真";
+	public String trueOrFalse(int num) {
+		String result;
+		if(num==1) {
+			result="真";
 		}else {
-			TF="偽";
+			result="偽";
 		}
-		return TF;
+		return result;
 	}
 
 }
